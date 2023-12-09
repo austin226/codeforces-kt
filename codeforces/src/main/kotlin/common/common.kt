@@ -1,0 +1,1 @@
+private fun String.splitWhitespace() = split("\\s+".toRegex())
