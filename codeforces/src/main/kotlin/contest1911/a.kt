@@ -1,5 +1,7 @@
 // https://codeforces.com/contest/1911/problem/A
 
+private fun readStr() = readln() // string line
+private fun readInt() = readStr().toInt() // single int
 private fun String.splitWhitespace() = split("\\s+".toRegex())
 private fun findSpyIndex(lineNums: List<Int>, arrLen: Int): Int {
     var first: Int? = null
@@ -29,7 +31,6 @@ private fun findSpyIndex(lineNums: List<Int>, arrLen: Int): Int {
 
 fun main() {
     val nTestCases = readln().toInt()
-
     val spyIndexes = MutableList<Int>(nTestCases) { -1 }
     for (ti in 0 until nTestCases) {
         val arrLen = readln().toInt()
