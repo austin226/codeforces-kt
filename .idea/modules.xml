@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/codeforces/codeforces.iml" filepath="$PROJECT_DIR$/codeforces/codeforces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeforces.iml" filepath="$PROJECT_DIR$/codeforces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/codeforces-kt.iml" filepath="$PROJECT_DIR$/.idea/codeforces-kt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeforces.main.iml" filepath="$PROJECT_DIR$/.idea/modules/codeforces.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeforces.test.iml" filepath="$PROJECT_DIR$/.idea/modules/codeforces.test.iml" />
     </modules>
   </component>
 </project>
