@@ -22,4 +22,15 @@ class GTest {
             averageString("nijfvj", "tvqhwp", 6)
         )
     }
+
+    @Test
+    fun test_avgString_longInputs() {
+        for (len in listOf(1, 10, 100, 1000, 10000, 20000)) {
+            val str1 = MutableList(len) { 'a' }.joinToString("")
+            val str2 = MutableList(len) { 'e' }.joinToString("")
+            val expectedAvg = MutableList(len) { 'c' }.joinToString("")
+            println("Test with len=$len")
+            assertEquals(expectedAvg, averageString(str1, str2, len))
+        }
+    }
 }
