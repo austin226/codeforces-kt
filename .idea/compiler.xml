@@ -5,6 +5,12 @@
       <module name="codeforces" target="18" />
       <module name="codeforces.main" target="18" />
       <module name="codeforces.test" target="18" />
+      <module name="common" target="19" />
+      <module name="common.main" target="19" />
+      <module name="common.test" target="19" />
+      <module name="contest1904" target="19" />
+      <module name="contest1904.main" target="19" />
+      <module name="contest1904.test" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>

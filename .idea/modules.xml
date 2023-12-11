@@ -6,6 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/codeforces-kt.iml" filepath="$PROJECT_DIR$/.idea/codeforces-kt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeforces.main.iml" filepath="$PROJECT_DIR$/.idea/modules/codeforces.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/codeforces.test.iml" filepath="$PROJECT_DIR$/.idea/modules/codeforces.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contest1904.iml" filepath="$PROJECT_DIR$/contest1904.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contest1904.main.iml" filepath="$PROJECT_DIR$/.idea/modules/contest1904.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contest1904.test.iml" filepath="$PROJECT_DIR$/.idea/modules/contest1904.test.iml" />
     </modules>
   </component>
 </project>
