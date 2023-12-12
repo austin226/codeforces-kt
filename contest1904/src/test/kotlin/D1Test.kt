@@ -39,5 +39,12 @@ class D1Test {
                 listOf(2, 1, 2)
             )
         )
+        assertEquals(
+            true, canABecomeB(
+                4,
+                mutableListOf(1, 4, 3, 4),
+                listOf(1, 4, 4, 4)
+            )
+        )
     }
 }

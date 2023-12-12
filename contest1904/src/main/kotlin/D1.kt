@@ -10,8 +10,7 @@ fun canABecomeB(n: Int, a: MutableList<Int>, b: List<Int>): Boolean {
         return false
     }
 
-    for (g in 0..<n) {
-        // Check if any a wants to become g
+    for (g in 0..n) {
         for (i in 0..<n) {
             if (b[i] == g && a[i] < g) {
                 // Find an l to the left
