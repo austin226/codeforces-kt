@@ -1,5 +1,3 @@
-import kotlin.math.max
-
 // https://codeforces.com/contest/1904/problem/D1
 
 private fun String.splitWhitespace() = split("\\s+".toRegex())
@@ -12,31 +10,29 @@ fun canABecomeB(n: Int, a: MutableList<Int>, b: List<Int>): Boolean {
         return false
     }
 
-    for (i in 0..<n) {
-        if (a[i] < b[i]) {
-            // Choose l that's the last number equal to b[i]
-            var l = i
-            for (j in i downTo 0) {
-                if (b[j] == b[i]) {
-                    l = j
+    for (g in 0..<n) {
+        // Check if any a wants to become g
+        for (i in 0..<n) {
+            if (b[i] == g && a[i] < g) {
+                // Find an l to the left
+                var l = i
+                while (l > 0 && a[l - 1] <= g && b[l - 1] >= g) {
+                    l--
                 }
-            }
-
-            // See if we can choose an r to the right
-            // TODO - handle cases [3,2,1,1,1]->[3,3,3,2,2]
-            var r = l
-            var m = a[l]
-            while (r < n && a[r] <= b[r] && a[r] <= b[i] && m <= b[r]) {
-                m = max(m, a[r])
-                r++
-            }
-            // set a[i] through a[r] to max
-            for (j in l..<r) {
-                a[j] = m
+                // Find r
+                var r = i
+                while (r < n - 1 && a[r + 1] <= g && b[r + 1] >= g) {
+                    r++
+                }
+                if (!(l..r).any { j -> a[j] == g }) {
+                    return false
+                }
+                for (j in l..r) {
+                    a[j] = g
+                }
             }
         }
     }
-
     return a == b
 }
 
