@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/contest1904.iml" filepath="$PROJECT_DIR$/contest1904.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/contest1904.main.iml" filepath="$PROJECT_DIR$/.idea/modules/contest1904.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/contest1904.test.iml" filepath="$PROJECT_DIR$/.idea/modules/contest1904.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contest1907.iml" filepath="$PROJECT_DIR$/contest1907.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contest1907.main.iml" filepath="$PROJECT_DIR$/.idea/modules/contest1907.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contest1907.test.iml" filepath="$PROJECT_DIR$/.idea/modules/contest1907.test.iml" />
     </modules>
   </component>
 </project>

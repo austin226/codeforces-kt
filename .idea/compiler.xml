@@ -11,6 +11,9 @@
       <module name="contest1904" target="19" />
       <module name="contest1904.main" target="19" />
       <module name="contest1904.test" target="19" />
+      <module name="contest1907" target="19" />
+      <module name="contest1907.main" target="19" />
+      <module name="contest1907.test" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>
